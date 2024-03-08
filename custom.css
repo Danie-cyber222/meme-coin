@@ -1,0 +1,8 @@
+body {
+    background-color: #0008b !important;
+}
+
+#hero_img{
+    width: 300px;
+    border-radius: 50%;
+}
