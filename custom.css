@@ -23,20 +23,39 @@ body {
     line-height: 20px;
 }
 .first-head{
+    display: grid;
+    place-items: center;
+    height: 30px;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.about-coin{
+    line-height: 30px;
     font-weight: 100;
-    text-shadow: 0px 5px 10px blue;
+    font-size: larger;
 }
 .btnn{
     margin-top: 40px;
 }
 .btn{
-    background-color: rgb(188, 45, 69);
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
     padding: 10px;
     border-radius: 10px;
     margin-right: 20px;
     text-decoration: none;
-    color: white;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 600;
 }
 .info img{
     width: 120px;
@@ -61,10 +80,11 @@ body {
     line-height: 10px;
 }
 .footer{
-    position: relative;
+    /* position: relative; */
     display: flex;
     list-style: none;
     gap: 50px;
+    margin-top: 100px;
 }
 .footer a{
     color: white;
@@ -86,7 +106,7 @@ body {
     }
     .info{
         width: 280px;
-        margin-top: 300px;
+        margin-top: 500px;
     }
     .btnn{
         display: grid;
