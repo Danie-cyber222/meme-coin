@@ -4,6 +4,7 @@ body {
     background-size: cover;
     background-repeat: none;
     color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 .main{
     display: flex;
@@ -16,10 +17,14 @@ body {
 }
 .hero{
     width: 50%;
-    height: 80vh;
-    /* border: 2px solid red; */
-    text-align: center;
-    /* white-space: pre-wrap; */
+    height: 90vh;
+    display: grid;
+    place-items: center;
+    line-height: 20px;
+}
+.first-head{
+    font-weight: 100;
+    text-shadow: 0px 5px 10px blue;
 }
 .btnn{
     margin-top: 40px;
@@ -35,10 +40,9 @@ body {
 }
 .info img{
     width: 120px;
-    height: 100px;
     position: relative;
     right: 60%;
-    border-radius: 10px;
+    border-radius: 50%;
 }
 .info p{
     font-size: 20px;
@@ -49,7 +53,6 @@ body {
 .info{
     width: 300px;
     text-align: right;
-    /* border: 5px solid blue; */
     border-radius: 10px;
     border: 5px solid blue;
     padding: 30px;
@@ -58,7 +61,7 @@ body {
     line-height: 10px;
 }
 .footer{
-    position: sticky;
+    position: relative;
     display: flex;
     list-style: none;
     gap: 50px;
@@ -83,6 +86,10 @@ body {
     }
     .info{
         width: 280px;
-        margin-top: 100px;
+        margin-top: 300px;
+    }
+    .btnn{
+        display: grid;
+        gap: 10px;
     }
   }
